@@ -53,7 +53,7 @@ export default function GameIns({ navigation }) {
                 </Pressable>
 
                 {/* List B Countries */}
-                <Text style={styles.listHeader}>{"\n"}LIST B </Text>
+                <Text style={[styles.listHeader, {marginTop: Dimensions.get('window').height / 130}]}>{"\n"}LIST B </Text>
 
                 <Pressable style={styles.countryButton} numberOfLines={1} onPress={() => navigation.navigate("SAfrica", {moneyval: 65, f1:'none', f2:'none', f3:'none', f4: 'none', f5:'none', f6:'none', f7:'none', f8:'none', isNew: true})}>
                     <Text style={styles.textButton}>
@@ -82,7 +82,7 @@ export default function GameIns({ navigation }) {
                     </View>
                 </Pressable>
 
-                <Pressable style={styles.countryButton} numberOfLines={1} onPress={() => navigation.navigate("Malawi", {moneyval: 50, f1:'none', f2:'none', f3:'none', f4: 'none', f5:'none', f6:'none', f7:'none', f8:'none', isNew: true})}>
+                <Pressable style={[styles.countryButton, {marginBottom: Dimensions.get('window').height / 50,}]} numberOfLines={1} onPress={() => navigation.navigate("Malawi", {moneyval: 50, f1:'none', f2:'none', f3:'none', f4: 'none', f5:'none', f6:'none', f7:'none', f8:'none', isNew: true})}>
                     <Text style={styles.textButton}>
                         Malawi
                     </Text>

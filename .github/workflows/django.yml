@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Install dependencies
-      working-directory: ./deliverable-2/w4w-app/backend
+      working-directory: ./main/w4w-app/backend
       run: |
         sudo apt-get update
         sudo apt-get install -y python3 python3-pip fabric
@@ -23,6 +23,6 @@ jobs:
         pip3 install -r requirements.txt
         
     - name: Run Tests
-      working-directory: ./deliverable-2/w4w-app/backend
+      working-directory: ./main/w4w-app/backend
       run: |
         python manage.py test
