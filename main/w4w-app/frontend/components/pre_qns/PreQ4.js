@@ -96,10 +96,10 @@ export default function PreQ4({ navigation }) {
             {/* Map Image */}
 			<View style={styles.ImageContainer}>
 				<Image
-					source={require('../../assets/lteracyGlobeCountries.png')}
+					source={require('../../assets/literacyGlobeCountries.jpeg')}
 					style={{
 						width: Dimensions.get('window').width,
-						height: Dimensions.get('window').height / 4.5,
+						height: Dimensions.get('window').height / 3,
 						marginTop: Dimensions.get('window').height / 50,
 						resizeMode: 'contain',
 					}}

@@ -107,9 +107,9 @@ export default function PreQ3({ navigation }) {
             {/* Map Image */}
 			<View style={styles.ImageContainer}>
 				<Image
-					source={require('../../assets/waterAccessMap.jpg')}
+					source={require('../../assets/waterAccessMap.png')}
 					style={{
-						width: Dimensions.get('window').width,
+						width: Dimensions.get('window').width / 1.2,
 						height: Dimensions.get('window').height / 4,
 						marginTop: Dimensions.get('window').height / 55,
 						resizeMode: 'contain',
