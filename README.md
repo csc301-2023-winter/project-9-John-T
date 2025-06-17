@@ -1,4 +1,4 @@
-# Git Good: Water Filter Building Application
+# Water For The World: Water Filter Building Application
 
 ## Description 
 Water for the World (W4TW) is a mobile application for understanding issues around global clean water supply. Engineers Without Borders (W4TW) is the project partner. This organization is concerned with educating the world about the global clean water supply and the disparities of access to it for different parts of the world. The app intends to educate people on the disparities of access to clean water through a series of questions along with an interactive module. A common use case for the app would be for students to use the app to learn about the unequal distribution of resources in the world. The app would also support educators as a teaching method while also assessing and providing information on student responses to the educator.
